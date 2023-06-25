@@ -4,6 +4,8 @@ import { SelectedPage } from "@/shared/types";
 import "../src/index.css";
 import Home from "./scenes/home";
 import Benefits from "./scenes/benefits";
+import OurClasses from "./scenes/ourclasses";
+import ContactUs from "./scenes/contactus";
 
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
         />
         <Home setSelectedPage={setSelectedPage} />
         <Benefits setSelectedPage={setSelectedPage} />
+        <OurClasses setSelectedPage={setSelectedPage} />
+        <ContactUs setSelectedPage={setSelectedPage} />
       </div>
   )
 }
